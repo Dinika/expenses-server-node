@@ -4,7 +4,8 @@
   "description": "Node server for (share-)expenses application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "@types/express": "^4.17.11",
     "@types/helmet": "^4.0.0",
     "@types/node": "^15.3.0",
+    "ts-node-dev": "^1.1.6",
     "typescript": "^4.2.4"
   }
 }
